@@ -34,6 +34,11 @@ const Homepage = () => {
                 Contact Me
               </button>
             </Link>
+            <a href="/resume.pdf" download>
+              <button className="p-2 md:p-4 rounded-lg ring-1 ring-black bg-black text-white">
+                Download Resume
+              </button>
+            </a>
           </div>
         </div>
       </div>

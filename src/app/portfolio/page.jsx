@@ -25,22 +25,22 @@ const Portfolio = () => {
       img: "/casepanda.png",
       link: "https://casepanda.vercel.app/",
     },
-    {
-      id: 3,
-      color: "from-violet-300 to-purple-300",
-      title: "Under Progress",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-      img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      link: "https://iyogi.vercel.app/",
-    },
-    {
-      id: 4,
-      color: "from-purple-300 to-red-300",
-      title: "Under Progress",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-      img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      link: "https://iyogi.vercel.app/",
-    },
+  {
+  id: 3,
+  color: "from-violet-300 to-purple-300",
+  title: "iYogi Portfolio",
+  desc: "A modern personal portfolio showcasing projects, skills, and creative work. Built with performance and clean UI in mind, it highlights real-world applications and a strong focus on user experience and design consistency.",
+  img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+  link: "https://iyogi.vercel.app/",
+},
+{
+  id: 4,
+  color: "from-purple-300 to-red-300",
+  title: "NextGen Web App",
+  desc: "An upcoming full-stack web application focused on scalability and seamless user interaction. Designed to solve real problems using modern technologies, with an emphasis on speed, responsiveness, and clean architecture.",
+  img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  link: "https://iyogi.vercel.app/",
+}
   ];
   return (
     <motion.div
